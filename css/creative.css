@@ -103,6 +103,10 @@ p {
     /*line-height: 1.5;*/
 /*}*/
 
+.publist {
+	margin: 0px 0 20px 0;
+}
+
 .bg-primary {
     background-color: #60adb8;
 }
