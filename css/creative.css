@@ -57,7 +57,7 @@ h2 {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 	font-weight: 200;
-	font-size: 90px;
+	font-size: 60px;
     /*color: #f05f40;*/
 }
 
@@ -71,6 +71,7 @@ h3 {
     -webkit-margin-after: 0.5em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+	margin-bottom: 20px;
 	font-weight: 700;
 	font-size: 16px;
     /*color: #f05f40;*/
