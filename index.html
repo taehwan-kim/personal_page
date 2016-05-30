@@ -1,121 +1,425 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Skeleton: Responsive CSS Boilerplate</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Taehwan Kim's Website">
+    <meta name="author" content="Taehwan Kim">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Taehwan Kim</title>
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/skeleton.css">
-  <link rel="stylesheet" href="./css/custom.css">
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
-  <!-- Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <style type="text/css"></style>
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-	<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
-	.en-markup-crop-options {
-	    top: 18px !important;
-	    left: 50% !important;
-	    margin-left: -100px !important;
-	    width: 200px !important;
-	    border: 2px rgba(255,255,255,.38) solid !important;
-	    border-radius: 4px !important;
-	}
-	
-	.en-markup-crop-options div div:first-of-type {
-	    margin-left: 0px !important;
-	}
-	</style>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
-<body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<body id="page-top">
 
-  <div class="section hero">
-    <div class="container">
-      <div class="row">
-        <div class="one-half column">
-          <h4 class="hero-heading">Stop coding non-responsive sites. Let users view sites from anywhere.</h4>
-          <a class="button button-primary" href="http://getskeleton.com">Try Skeleton</a>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <!--<div class="container">-->
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <!--<div class="navbar-header">-->
+                <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">-->
+                    <!--<span class="sr-only">Toggle navigation</span>-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                <!--</button>-->
+                <!--<a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>-->
+            <!--</div>-->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#research">Research</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#publication">Publications</a>
+                    </li>
+				</ul>
+
+                <!--<ul class="nav navbar-nav navbar-right">-->
+                    <!--<li>-->
+					<!--<a href="mailto:your-email@your-domain.com">-->
+						<!--<i class="fa fa-envelope-o wow bounceIn" data-wow-delay=".1s"></i>-->
+						 <!--[>taehwan (at) eecs.berkeley.edu<]-->
+					<!--</a>-->
+					<!--</li>-->
+				<!--</ul>-->
+
+            </div>
+
+
+
+            <!-- /.navbar-collapse -->
+        <!--</div>-->
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h2>Taehwan Kim</h2>
+                <hr>
+				<p style="font-size: 15px">
+				Berkeley Wireless Research Center, 2108 Allston Way, Berkeley, CA 94720
+				<br>
+					<a href="mailto:taehwan@eecs.berkeley.edu" style="color: rgba(255,255,255,.7); font-weight: 200;">
+                        <!--<i class="fa fa-envelope-o wow bounceIn" data-wow-delay=".1s"></i>-->
+						 taehwan (at) eecs.berkeley.edu
+					</a>
+				</p>
+
+                <!--<a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>-->
+            </div>
         </div>
-        <div class="one-half column phones">
-          <img class="phone" src="images/iphone.png">
-          <img class="phone" src="images/iphone.png">
+    </header>
+
+    <section class="bg-primary" id="about" style="min-height: 40%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-lg-offset-1">
+					<h3>ABOUT</h3> 
+                    <!--<h2 class="section-heading">We've got what you need!</h2>-->
+                </div>
+				<div class="col-lg-8" style="padding: 0 80px 0 80px">
+                <!--<div class="col-lg-7.5 col-lg-offset-0.5">-->
+					<!--<p class="text-primary">-->
+					<p style="text-align: justify;">
+					I am a Ph.D. student at <a href="http://www.berkeley.edu" target="_blank">UC Berkeley</a> in <a href="http://www.eecs.berkeley.edu" target="_blank">EECS</a> working with <a href="https://scholar.google.com/citations?user=rsGmH38AAAAJ" target="_blank">Vladimir Stojanović</a> in the <a href="http://bwrc.eecs.berkeley.edu/" target="_blank">Berkeley Wireless Research Center (BWRC)</a>.<br> 
+					I like designing and analyzing complex systems, and also improving the way people design and analyze such systems.
+					As a member of <a href="http://isg.eecs.berkeley.edu">Integrated Systems Group</a>, I am trying to tackle these problems in the context of integrated opto-electronics. 
+					I am currently working on the design of systems based on large-scale optical phased array, such as LIDAR and free-space communication link. 
+
+					</p>
+                    <!--<a href="#" class="btn btn-default btn-xl">Get Started!</a>-->
+                </div>
+                <div class="col-lg-2">
+						<p style="letter-spacing: 5px;">
+						<a href="mailto:taehwan@eecs.berkeley.edu"><i class="fa fa-envelope-o"></i></a>
+						<a href="https://www.facebook.com/taehwan.kim.79677" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="https://www.linkedin.com/in/taehwan-kim-838b6172" target="_blank"><i class="fa fa-linkedin"></i></a>
+						</p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
+    </section>
 
-  <div class="section values">
-    <div class="container">
-      <div class="row">
-        <div class="one-third column value">
-          <h2 class="value-multiplier">67%</h2>
-          <h5 class="value-heading">Purchase Increase</h5>
-          <p class="value-description">Percentage of users more likely to purchase on mobile friendly site.</p>
-        </div>
-        <div class="one-third column value">
-          <h2 class="value-multiplier">90%</h2>
-          <h5 class="value-heading">Multi-device Users</h5>
-          <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
-        </div>
-        <div class="one-third column value">
-          <h2 class="value-multiplier">66%</h2>
-          <h5 class="value-heading">Sad Users</h5>
-          <p class="value-description">Percentage of users that are frustrated with page load times.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+    <section id="education">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-lg-offset-1">
+					<h3>EDUCATION</h3> 
+                    <!--<h2 class="section-heading">We've got what you need!</h2>-->
+                </div>
+				<div class="col-lg-8" style="padding: 0 0 0 80px">
+                <!--<div class="col-lg-7.5 col-lg-offset-0.5">-->
+					<h4><a href="http://www.berkeley.edu">University of California, Berkeley</a></h4>
+					<p class="text-italic">
+					Ph.D. Student in Electrical Engineering and Computer Science (Advisor: Vladimir Stojanović)
+					</p>
+					<p class="text-primary" style="margin-bottom: 0px;">
+					Completed Coursework (as of Spring 2016):
+					</p>
+					<ul style="margin-bottom: 20px;">
+						<li>Analog Integrated Circuits</li>
+						<li>Advanced Analog Integrated Circuits</li>
+						<li>Digital Integrated Circuits</li>
+						<li>Integrated Circuits for Communications</li>
+						<li>Digital Signal Processing</li>
+					</ul>
+                    <!--<a href="#" class="btn btn-default btn-xl">Get Started!</a>-->
+                </div>
+                <div class="col-lg-2">
+					<p> Aug. 2014 - Present
+					</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1 col-lg-offset-1">
+                    <!--<h2 class="section-heading">We've got what you need!</h2>-->
+                </div>
+				<div class="col-lg-8" style="padding: 0 0 0 80px">
+                <!--<div class="col-lg-7.5 col-lg-offset-0.5">-->
+						<h4><a href="http://www.snu.ac.kr">Seoul National University</a></h4>
+					<p class="text-italic">
+					B.S. in Electrical and Computer Engineering
+					<br>
+					B.A. in Economics (Double major)
+					</p>
+                    <!--<a href="#" class="btn btn-default btn-xl">Get Started!</a>-->
+                </div>
+                <div class="col-lg-2">
+					<p>
+						Mar. 2007 - Feb. 2014
+					</p>
+                </div>
+            </div>
 
-  <div class="section get-help">
-    <div class="container">
-      <h3 class="section-heading">Need help getting started?</h3>
-      <p class="section-description">Skeleton is an amazingly easy place to start with responsive development. If you want to learn more, just visit the documentation!</p>
-      <a class="button button-primary" href="http://getskeleton.com">View Skeleton Docs</a>
-    </div>
-  </div>
+            <!--<div class="row">-->
+                <!--<div class="col-lg-12 text-center">-->
+                    <!--<h2 class="section-heading">At Your Service</h2>-->
+                    <!--<hr class="primary">-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-lg-3 col-md-6 text-center">-->
+                    <!--<div class="service-box">-->
+                        <!--<i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>-->
+                        <!--<h3>Sturdy Templates</h3>-->
+                        <!--<p class="text-muted">Our templates are updated regularly so they don't break.</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-3 col-md-6 text-center">-->
+                    <!--<div class="service-box">-->
+                        <!--<i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>-->
+                        <!--<h3>Ready to Ship</h3>-->
+                        <!--<p class="text-muted">You can use this theme as is, or you can make changes!</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-3 col-md-6 text-center">-->
+                    <!--<div class="service-box">-->
+                        <!--<i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>-->
+                        <!--<h3>Up to Date</h3>-->
+                        <!--<p class="text-muted">We update dependencies to keep things fresh.</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-3 col-md-6 text-center">-->
+                    <!--<div class="service-box">-->
+                        <!--<i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>-->
+                        <!--<h3>Made with Love</h3>-->
+                        <!--<p class="text-muted">You have to make your websites with love these days!</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
 
-  <div class="section categories">
-    <div class="container">
-      <h3 class="section-heading">Responsive Images</h3>
-      <p class="section-description">Skeleton images sit easily in grid with .u-max-full-width class. I suggest exploring solution to serving different images based on device size.</p>
-      <div class="row">
-        <div class="one-half column category">
-          <img class="u-max-full-width" src="images/placeholder.png">
-        </div>
-        <div class="one-half column category">
-          <img class="u-max-full-width" src="images/placeholder.png">
-        </div>
-      </div>
-    </div>
-  </div>
+    </section>
 
+    <section id="research">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-lg-offset-1">
+					<h3>RESEARCH</h3> 
+                    <!--<h2 class="section-heading">We've got what you need!</h2>-->
+                </div>
+				<div class="col-lg-8" style="padding: 0 80px 0 80px">
+                <!--<div class="col-lg-7.5 col-lg-offset-0.5">-->
+					<p style="text-align: justify;">
+					Thanks to recent breakthroughs in electronic-photonic integration technology, a new, powerful signal domain, photonics, is becoming available in VLSI systems in a truly integrated manner. 
+					This new degree of freedom is going to be our savior in a number of application domains, whose improvement has been threatened by the end of Moore's law. 
+					More importantly, it implies the advent of completely new types of systems, which will play a crucial role in constructing the physical foundations of next-generation information technology. 
+					It is a really exciting project not just because it's expected to offer multiple-orders-of-magnitude improvements in any terms over existing solutions&mdash;development of fundamental approach for 	
+				   	
+					</p>
+                    <!--<a href="#" class="btn btn-default btn-xl">Get Started!</a>-->
+                </div>
+                <div class="col-lg-2">
+                </div>
+            </div>
+	</section>
 
+    <section class="last-section" id="publication">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-lg-offset-1">
+					<h3>PUBLICATIONS</h3> 
+                    <!--<h2 class="section-heading">We've got what you need!</h2>-->
+                </div>
+				<div class="col-lg-10" style="padding: 0 80px 0 80px">
+                <!--<div class="col-lg-7.5 col-lg-offset-0.5">-->
+					<ul style="margin-bottom: 20px; list-style-type:none; -webkit-padding-start: 0px; text-align: justify;">
+							<li><b>T. Kim</b>, D.-G. Song, S. Youn, J. Park, H. Park, and J. Kim, “Verifying Start-Up Failures in Coupled Ring Oscillators in Presence of Variability Using Predictive Global Optimization,” in Proc. IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2013.</li>
+							<li>
+							J. Kim, J. Lee, D.-G. Song, <b>T. Kim</b>, K.-H. Kim, S. Jung, and S. Youn, “Discretization and Discrimination Methods for Design, Verification, and Testing of Analog/Mixed Signal Circuits,” in Proc. Custom Integrated Circuits Conference (CICC), 2013.
+							</li>
+					</ul>
+                    <!--<a href="#" class="btn btn-default btn-xl">Get Started!</a>-->
+                </div>
 
+            </div>
+	</section>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!--<section class="no-padding" id="portfolio">-->
+        <!--<div class="container-fluid">-->
+            <!--<div class="row no-gutter">-->
+                <!--<div class="col-lg-4 col-sm-6">-->
+                    <!--<a href="#" class="portfolio-box">-->
+                        <!--<img src="img/portfolio/1.jpg" class="img-responsive" alt="">-->
+                        <!--<div class="portfolio-box-caption">-->
+                            <!--<div class="portfolio-box-caption-content">-->
+                                <!--<div class="project-category text-faded">-->
+                                    <!--Category-->
+                                <!--</div>-->
+                                <!--<div class="project-name">-->
+                                    <!--Project Name-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-sm-6">-->
+                    <!--<a href="#" class="portfolio-box">-->
+                        <!--<img src="img/portfolio/2.jpg" class="img-responsive" alt="">-->
+                        <!--<div class="portfolio-box-caption">-->
+                            <!--<div class="portfolio-box-caption-content">-->
+                                <!--<div class="project-category text-faded">-->
+                                    <!--Category-->
+                                <!--</div>-->
+                                <!--<div class="project-name">-->
+                                    <!--Project Name-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-sm-6">-->
+                    <!--<a href="#" class="portfolio-box">-->
+                        <!--<img src="img/portfolio/3.jpg" class="img-responsive" alt="">-->
+                        <!--<div class="portfolio-box-caption">-->
+                            <!--<div class="portfolio-box-caption-content">-->
+                                <!--<div class="project-category text-faded">-->
+                                    <!--Category-->
+                                <!--</div>-->
+                                <!--<div class="project-name">-->
+                                    <!--Project Name-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-sm-6">-->
+                    <!--<a href="#" class="portfolio-box">-->
+                        <!--<img src="img/portfolio/4.jpg" class="img-responsive" alt="">-->
+                        <!--<div class="portfolio-box-caption">-->
+                            <!--<div class="portfolio-box-caption-content">-->
+                                <!--<div class="project-category text-faded">-->
+                                    <!--Category-->
+                                <!--</div>-->
+                                <!--<div class="project-name">-->
+                                    <!--Project Name-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-sm-6">-->
+                    <!--<a href="#" class="portfolio-box">-->
+                        <!--<img src="img/portfolio/5.jpg" class="img-responsive" alt="">-->
+                        <!--<div class="portfolio-box-caption">-->
+                            <!--<div class="portfolio-box-caption-content">-->
+                                <!--<div class="project-category text-faded">-->
+                                    <!--Category-->
+                                <!--</div>-->
+                                <!--<div class="project-name">-->
+                                    <!--Project Name-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-sm-6">-->
+                    <!--<a href="#" class="portfolio-box">-->
+                        <!--<img src="img/portfolio/6.jpg" class="img-responsive" alt="">-->
+                        <!--<div class="portfolio-box-caption">-->
+                            <!--<div class="portfolio-box-caption-content">-->
+                                <!--<div class="project-category text-faded">-->
+                                    <!--Category-->
+                                <!--</div>-->
+                                <!--<div class="project-name">-->
+                                    <!--Project Name-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
+
+    <!--<aside class="bg-dark">-->
+        <!--<div class="container text-center">-->
+            <!--<div class="call-to-action">-->
+                <!--<h2>Free Download at Start Bootstrap!</h2>-->
+                <!--<a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</aside>-->
+
+    <!--<section id="contact">-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-lg-8 col-lg-offset-2 text-center">-->
+                    <!--<h2 class="section-heading">Let's Get In Touch!</h2>-->
+                    <!--<hr class="primary">-->
+                    <!--<p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-lg-offset-2 text-center">-->
+                    <!--<i class="fa fa-phone fa-3x wow bounceIn"></i>-->
+                    <!--<p>123-456-6789</p>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 text-center">-->
+					<!--<p><a href="mailto:your-email@your-domain.com">-->
+                        <!--<i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>-->
+						<!--<br>email-->
+					<!--</a></p>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
+	<footer class="container-fluid text-center">
+	  <a href="#page-top" title="To Top">
+			      <span class="glyphicon glyphicon-chevron-up"></span>
+				    </a>
+					  <p>© 2016 Taehwan Kim. All rights reserved.</p> 
+	</footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
 </body>
+
 </html>
